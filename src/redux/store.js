@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit';
-import cartSlice from './cartSlice';
+import historySlice from './hostorySlice';
 
 const store = configureStore({
   reducer: {
-    cart: cartSlice,
+    history: historySlice,
   },
 });
 

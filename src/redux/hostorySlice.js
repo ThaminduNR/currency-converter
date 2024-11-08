@@ -4,19 +4,19 @@ const initialState = {
   items: [],
 };
 
-const cartSlice = createSlice({
-  name: 'cart',
+const hiatorySlice = createSlice({
+  name: 'history',
   initialState,
   reducers: {
-    addToCart: (state, action) => {
+    addToHostory: (state, action) => {
       state.items.push(action.payload);
     },
-    removeFromCart: (state, action) => {
+    removeFromHostory: (state, action) => {
       state.items = state.items.filter(item => item.id !== action.payload.id);
     },
   },
 });
 
-export const {addToCart, removeFromCart} = cartSlice.actions;
+export const {addToHostory, removeFroHostory} = hiatorySlice.actions;
 
-export default cartSlice.reducer;
+export default hiatorySlice.reducer;
