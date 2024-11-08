@@ -44,6 +44,6 @@ This is one way to run your app — you can also run it directly from within And
 
 ### Local Image
 
-![Screenshot](./src/assets/images/Screenshot1.png)
-![Screenshot](./src/assets/images/Screenshot2.png)
-![Screenshot](./src/assets/images/Screenshot3.png)
+<img src="./src/assets/images/Screenshot1.png" alt="Screenshot" width="300" />
+<img src="./src/assets/images/Screenshot2.png" alt="Screenshot" width="300" />
+<img src="./src/assets/images/Screenshot3.png" alt="Screenshot" width="300" />
