@@ -66,8 +66,8 @@ const AppNavigation = () => {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="HomeTabs" component={TabNavigator} />
         <Stack.Screen name="Splash" component={SplashScreen} />
+        <Stack.Screen name="HomeTabs" component={TabNavigator} />
       </Stack.Navigator>
     );
   };

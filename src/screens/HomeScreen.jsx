@@ -19,6 +19,7 @@ function HomeScreen() {
   const [selectedValue1, setSelectedValue1] = useState('USD');
   const [selectedValue2, setSelectedValue2] = useState('EUR');
   const [date, setDate] = useState('');
+  const [convertAmount, setConvertAmount] = useState(0);
 
   const [amount, setAmount] = useState(0);
 
@@ -37,6 +38,7 @@ function HomeScreen() {
       selectedValue2,
       amount,
     );
+    setConvertAmount(results);
     console.log(results);
   };
 
